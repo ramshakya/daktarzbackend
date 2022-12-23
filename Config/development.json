@@ -1,0 +1,22 @@
+{
+	"host": "localhost",
+	"port": "8004",
+	"mongoDb": {
+		
+		"URI": "mongodb://localhost/daktarz",
+		"PORT": "27017"
+	},
+	"s3BucketCredentials" : {
+		"bucket": "",
+		"accessKeyId": "",
+		"secretAccessKey": "",
+		"s3URL": "",
+		"folder": {
+			"original": "original",
+			"thumbnail": "thumbnail",
+			"processed": "processed",
+			"thumbnail1080": "thumbnail1080",
+			"thumbnailMed": "thumbnailMed"
+		}
+	}
+}
